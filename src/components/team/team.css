@@ -1,0 +1,45 @@
+.team .items{
+    transition: 0.5s;
+}
+.team .img{
+    position: relative;
+}
+.team img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.overlay i{
+    margin: 5px;
+}
+.team .items:hover .overlay{
+    opacity: 1;
+}
+.team .details{
+    padding: 30px;
+    text-align: center;
+}
+
+.team .details h2{
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.team .details p{
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.team .items:hover{
+    color: #1eb2a6;
+    cursor: pointer;
+}
